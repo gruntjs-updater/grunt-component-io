@@ -1,0 +1,39 @@
+{
+  "name": "grunt-component-io",
+  "description": "Inject component io builds into grunt workflow",
+  "version": "0.1.0",
+  "homepage": "https://github.com/hkwd/grunt-component-io",
+  "author": {
+    "name": "Vladimir Popov",
+    "email": "rusintez@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hkwd/grunt-component-io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hkwd/grunt-component-io/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hkwd/grunt-component-io/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "component": "~0.17.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin", 
+    "component"
+  ],
+  "scripts": {
+    "test": "mocha -R spec"
+  }
+}

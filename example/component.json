@@ -1,0 +1,27 @@
+{
+  "name": "example",
+  "repo": "example/example",
+  "description": "Inject component io builds into grunt workflow",
+  "keywords": [
+    "gruntplugin"
+  ],
+  "version": "0.1.0",
+  "license": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hkwd/grunt-component-io/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/one.js",
+  "scripts": [
+    "lib/one.js",
+    "lib/sub/three.js",
+    "lib/template.js",
+    "lib/two.js"
+  ],
+  "styles": [],
+  "fonts": [],
+  "files": [
+    "lib/four.txt"
+  ]
+}
